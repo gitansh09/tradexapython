@@ -1,0 +1,38 @@
+Q1  
+
+n=int(input())
+li=[]
+for i in range(0,6):
+  a=int(input())
+  li.append(a)
+li=(li[-n:] + li[:-n])
+print(li)
+
+---------------------------------------------------------------------
+
+Q3
+
+st=input()
+s=st.split(" ")
+string=[i[::-1]for i in s]
+new=" ".join(string)
+print(new)
+
+--------------------------------------------------------------------
+
+Q2
+
+
+st1=input()
+
+st1=st1.replace('a',"d")
+  
+st1=st1.replace('A','D')
+  
+st1=st1.replace('m','p')
+  
+st1=st1.replace('M','P')
+  
+st1=st1.replace('x','a')
+st1=st1.replace('X','A')
+print(st1)
